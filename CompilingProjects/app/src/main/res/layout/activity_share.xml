@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shareActivity">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/gettag"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="359dp"
+            android:text="You Get"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ruletag1"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="617dp"
+            android:fontFamily="serif"
+            android:text="Refer and Earn"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/grabtag"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="571dp"
+            android:text="GRAB YOUR"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rewardtag"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="79dp"
+            android:layout_marginRight="79dp"
+            android:layout_marginBottom="525dp"
+            android:fontFamily="serif"
+            android:text="Instant Rewards"
+            android:textColor="@android:color/black"
+            android:textSize="31sp" />
+
+        <TextView
+            android:id="@+id/ruletag2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="507dp"
+            android:fontFamily="sans-serif"
+            android:text="A simpler way to earn and get discounts"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/linetag"
+            android:layout_width="wrap_content"
+            android:layout_height="248dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="351dp"
+            android:layout_marginRight="351dp"
+            android:layout_marginBottom="251dp"
+            app:srcCompat="@drawable/ref" />
+
+        <TextView
+            android:id="@+id/rule3"
+            android:layout_width="298dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginBottom="450dp"
+            android:text="Invite your friends and family"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rule4"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="422dp"
+            android:fontFamily="serif"
+            android:text="Share the  Doctro app download link  and Referral code with your friends and family."
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/rule6"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="323dp"
+            android:fontFamily="serif"
+            android:text="Upto 20% off*+Extra Rs.100 off after your referral first successful appointment."
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <TextView
+            android:id="@+id/rule7"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="271dp"
+            android:fontFamily="sans-serif"
+            android:text="Your Friends Get"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rule8"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="252dp"
+            android:fontFamily="serif"
+            android:text="Upto 30%off + 20% off on their first appointment."
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="366dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="104dp"
+            android:background="@drawable/curved_share"
+            android:text="SHARE"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
